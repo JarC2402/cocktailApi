@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+input {
+  font-size: 30px;
+}
+
+.drink_content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drink_target {
+  border: solid white;
+  min-width: 300px;
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  border-radius: 5%;
+}
+
+.drink_target > img {
+  max-width: 200px;
+  margin-top: 1rem;
+  border-radius: 5%;
+
+}
